@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./assets/estyles.css">
+
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+
+    <!-- HEADER -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 m-0 p-0 bg-light">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="./assets/img/image.png" height="40px"
+                            class="d-inline-block align-top img-fluid" alt=""></a>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fa fa-bell"></i> <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./equipo.html">
+                                    <p class="text-monospace"> Mi cuenta</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                    <p class="text-monospace"> <i class="fa fa-sign-out" aria-hidden="true"></i> Salir
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- LOGIN -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <!-- Image and text -->
+                        <nav class="navbar navbar-light bg-light">
+                            <h3>INICIAR SESION</h3>
+                            <hr>
+                            <a class="navbar-brand my-2 text-right" href="#">
+                                <img src="./assets/img/image.png" width="60%" height="90px"
+                                    class="d-inline-block align-top" alt="">
+                            </a>
+                        </nav>
+
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 border-right border-dark">
+                                <section>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="usuario">USUARIO O CORREO</label>
+                                            <input type="text" class="form-control" id="usuario"
+                                                aria-describedby="usuarioHelp" placeholder="usuario / correo">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">CONTRASEÑA</label>
+                                            <input type="password" class="form-control" id="password"
+                                                placeholder="contraseña">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block">INICAR SESION</button>
+                                    </form>
+                                </section>
+                            </div>
+                            <div class="col-md-6 my-auto">
+                                <section>
+                                    <button class="btn btn-light btn-outline btn-block"><i class="fa fa-google"></i>
+                                        Conectarme con mi cuenta de
+                                        google</button>
+                                    <button class="btn btn-light btn-outline btn-block"><i class="fa fa-facebook"></i>
+                                        Conectarme con mi cuenta de
+                                        facebook</button>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- REGISTRO -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <!-- Image and text -->
+                        <nav class="navbar navbar-light bg-light">
+                            <h3>CREAR CUENTA</h3>
+                            <hr>
+                            <a class="navbar-brand my-2 text-right" href="#">
+                                <img src="./assets/img/image.png" width="60%" height="90px"
+                                    class="d-inline-block align-top" alt="">
+                            </a>
+                        </nav>
+
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 border-right border-dark">
+                                <section>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="razonSocial">RAZON SOCIAL / NOMBRE</label>
+                                            <input type="text" class="form-control" id="razonSocial"
+                                                aria-describedby="razonSocialHelp" placeholder="razon social / nombre">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="ruc">RUC</label>
+                                            <input type="text" class="form-control" id="ruc" aria-describedby="rucHelp"
+                                                placeholder="ruc">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="direccion">DIRECCION</label>
+                                            <input type="password" class="form-control" id="direccion"
+                                                placeholder="dirección">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block">CREAR CUENTA
+                                            GRATIS</button>
+                                    </form>
+                                </section>
+                            </div>
+                            <div class="col-md-6 my-auto">
+                                <section>
+                                    <button class="btn btn-light btn-outline btn-block"><i class="fa fa-google"></i>
+                                        Registrarme con google</button>
+                                    <button class="btn btn-light btn-outline btn-block"><i class="fa fa-facebook"></i>
+                                        Registrarme con facebook</button>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                Footer
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://use.fontawesome.com/0630a7a258.js"></script>
+
+</body>
+
+</html>
