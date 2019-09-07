@@ -1,116 +1,20 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
+include "header.php";
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="./assets/bootstrap.min.css">
-
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- My Styles -->
-    <link rel="stylesheet" href="./assets/estyles.css">
-
-    <title>Document</title>
-</head>
-
-<body class="bg-light">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 m-0 p-0 bg-light">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="./assets/img/image.png" height="40px"
-                            class="d-inline-block align-top img-fluid" alt=""></a>
-
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"><i class="fa fa-bell"></i> <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <p class="text-monospace"> Mi cuenta</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html" tabindex="-1" aria-disabled="true">
-                                    <p class="text-monospace"> <i class="fa fa-sign-out" aria-hidden="true"></i> Salir
-                                    </p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-            </div>
-        </div>
-    </div>
-
-    <br><br>
-
-    <!-- MENU -->
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <!-- A vertical navbar -->
-                <nav class="navbar bg-light">
-
-                    <!-- Links -->
-                    <ul class="navbar-nav text-center">
-                        <li class="nav-item bg-primary">
-                            <a class="nav-link text-light" href="./equipo.html">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./portafolio.html">Portafolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./servicio.html">Servicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pagos.html">Pagos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./horarios.html">Horarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./estadisticas.html">Estadisticas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./notificaciones.html">Notificaciones</a>
-                        </li>
-                    </ul>
-
-                </nav>
+                <!-- MENU -->
+                <?php
+                include "./menu.php";
+                 ?>
             </div>
             <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-right">
-                            <a href=""> nuevo profesional </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./assets/img/profesional.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
+                <?php
+                include "./portafolio_sections.php";
+                ?>
+                <div class="row mt-3 p-5">
                     <div class="col-md-4">
                         <div class="card">
                             <img src="./assets/img/profesional.png" class="card-img-top" alt="...">
@@ -217,17 +121,6 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                Footer
-            </div>
-        </div>
-    </div>
-
-
-    <script src="https://use.fontawesome.com/0630a7a258.js"></script>
-
-</body>
-
-</html>
+<?php
+include "./footer.php";
+?>
