@@ -23,7 +23,7 @@ include "./header.php";
                     <div class="row">
                         <div class="col-md-6 border-right border-dark">
                             <section>
-                                <form>
+                                <form action="./panelControl.php">
                                     <div class="form-group">
                                         <label for="usuario">USUARIO O CORREO</label>
                                         <input type="text" class="form-control" id="usuario"

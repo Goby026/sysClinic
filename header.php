@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-md-12 m-0 p-0 bg-light">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -57,31 +57,31 @@
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <button class="btn btn-light dropdown-toggle text-monospace" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle text-monospace" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fa fa-bell"></i> 
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="./notificaciones.php">Nueva cita</a>
+                                    <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                                        <!-- <a class="dropdown-item" href="./notificaciones.php">Nueva cita</a>
                                         <a class="dropdown-item" href="./notificaciones.php">Se realizó una calificacion</a>
-                                        <a class="dropdown-item" href="./notificaciones.php">Nueva cita</a>
+                                        <a class="dropdown-item" href="./notificaciones.php">Nueva cita</a> -->
                                     </div>
                                 </div>                                
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <button class="btn btn-light dropdown-toggle text-monospace" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle text-monospace" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Mi cuenta
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="./configuracion.php">Configuración</a>
                                         <a class="dropdown-item" href="./panelControl.php">Panel de control</a>
-                                        <a class="dropdown-item" href="./notificaciones.php">Notificaciones</a>
+                                        <!-- <a class="dropdown-item" href="./notificaciones.php">Notificaciones</a> -->
                                     </div>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./index.php" tabindex="-1" aria-disabled="true">
-                                    <p class="text-monospace"> <i class="fa fa-sign-out" aria-hidden="true"></i> Salir
+                                    <p class="text-light text-monospace"> <i class="fa fa-sign-out" aria-hidden="true"></i> Salir
                                     </p>
                                 </a>
                             </li>

@@ -9,7 +9,7 @@ include "header.php";
                 ?>
             </div>
             <div class="col-md-6">
-                <h3>PANEL DE CONTROL DE CLINICAS</h3>
+                <h3>PANEL ADMINISTRATIVO</h3>
                 <hr>
             </div>
             <div class="col-md-4">

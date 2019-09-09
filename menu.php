@@ -1,33 +1,26 @@
 <!-- A vertical navbar -->
 <nav class="navbar bg-light">
-
-    <!-- Links -->
-    <ul class="navbar-nav text-center">
+    <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link" href="./equipo.php?menu=equipo">Equipo</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="./portafolio.php">Portafolio</a>
+            <a class="nav-link" href="./clinicas.php?menu=equipo">Clínicas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./servicio.php">Servicio</a>
+            <a class="nav-link" href="./pacientes.php">Pacientes</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="./pagos.php">Pagos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./horarios.php">Horarios</a>
+        <a class="nav-link" href="./perfiles.php">Perfiles</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./estadisticas.php">Estadisticas</a>
+        <a class="nav-link" href="./guias.php">Guías</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./notificaciones.php">Notificaciones</a>
+        <a class="nav-link" href="./paquetes.php">Paquetes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./citas.php">Citas</a>
+        <a class="nav-link" href="./redes.php">Redes sociales</a>
         </li>
     </ul>
-
 </nav>
